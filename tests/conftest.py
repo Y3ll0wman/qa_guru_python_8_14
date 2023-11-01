@@ -8,7 +8,7 @@ from utils import attach
 
 def pytest_addoption(parser):
     parser.addoption(
-        '--browser_version',
+        '--browser-version',
         help='Версия браузера в которой будут запущены тесты',
         default='100.0'
     )
